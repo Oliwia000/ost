@@ -41,7 +41,7 @@ function ContactForm({ onSubmit }) {
   };
   return (
     <div className="container py-5">
-      <h2 className="mb-4 text-primary">Formularz kontaktowy</h2>
+      <h2 className="mb-4 text-warning">Formularz kontaktowy</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label className="form-label">Imię i nazwisko:</label>
